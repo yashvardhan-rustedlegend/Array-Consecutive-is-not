@@ -5,7 +5,7 @@ int main()
 	int a[]={83,78,80,81,79,82};
 	int n=sizeof(a)/sizeof(a[0]);
 	int count=0,temp;
-	for(int i=0;i<n-1;i++)
+	for(int i=0;i<n-1;i++)//sorting the array first.
 	{
 		for(int j=0;j<n-1-i;j++)
 		{
